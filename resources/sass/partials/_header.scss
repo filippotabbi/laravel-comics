@@ -1,0 +1,29 @@
+.bg-azure{
+  background-color: #0282f9;
+}
+.flex-end{
+  display: flex;
+  justify-content: flex-end;
+}
+.flex-end span{
+  padding-top: 5px;
+  padding-right: 30px;
+  padding-bottom: 5px;
+}
+.flex-btw{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top-row{
+  color: #FFF;
+}
+.jumbotron{
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-position: top;
+  margin: 0;
+  padding: 0;
+  background-image: url('./../img/jumbotron.jpg');
+}
