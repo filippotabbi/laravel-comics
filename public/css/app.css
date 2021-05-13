@@ -39,8 +39,37 @@
   background-image: url("./../img/jumbotron.jpg");
 }
 
+.logo {
+  transform: scale(0.9);
+}
+
+.active {
+  color: #0282f9;
+  border-bottom: 2px solid #0282f9;
+}
+
+input {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 2px solid #0282f9;
+  padding: 3px 10px;
+}
+
+.current-s {
+  padding: 10px 20px;
+  background-color: #0282f9;
+  color: #FFF;
+  width: 200px;
+  margin-left: 150px;
+  text-align: center;
+  position: relative;
+  bottom: 20px;
+  font-size: 18px;
+}
+
 .card {
-  margin-top: 50px;
+  margin-top: 30px;
   height: 280px;
 }
 
@@ -49,8 +78,35 @@
   margin-left: 5%;
 }
 
+.white-fk {
+  color: #000;
+  background-color: #f8f8f8;
+}
+
+a {
+  color: #FFF;
+  text-transform: uppercase;
+}
+
+.green-flex {
+  display: flex;
+  justify-content: space-between;
+  background-color: green;
+  color: #FFF;
+  padding: 15px;
+  margin: 15px 0;
+}
+
+.navbar {
+  margin-bottom: 5px;
+}
+
+.p-15 {
+  margin: 15px 0;
+}
+
 main {
-  background-color: #2f2e2e;
+  background-color: #1d1d1d;
   color: #FFF;
 }
 
@@ -61,9 +117,11 @@ main {
 
 .load-more {
   background-color: #0282f9;
-  padding: 10px 15px;
+  padding: 10px 50px;
   margin-top: 30px;
   margin-bottom: 30px;
+  margin-left: 43%;
+  border-radius: 10px;
 }
 
 .single-img {
@@ -77,4 +135,115 @@ main {
 
 .h-60 {
   height: 60px;
+}
+
+.descr {
+  color: #000;
+}
+
+.col-xs-4, .col-xs-8 {
+  border-bottom: 1px black;
+}
+
+.h-100 {
+  height: 100px;
+}
+
+.blue {
+  color: blue;
+}
+
+.flex-around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 100;
+}
+
+.flex-around img {
+  height: 50px;
+  margin-top: 25px;
+  z-index: 3;
+}
+
+.flex-around h5 {
+  margin-top: 25px;
+}
+
+.container .col-xs-4, .col-xs-8 {
+  border-bottom: 1px solid darkgrey;
+  margin: 20px 0;
+}
+
+.table {
+  margin-top: 30px;
+}
+
+flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-col div {
+  display: flex;
+  flex-direction: column;
+}
+
+.foot-nav {
+  padding: 60px 0;
+  background-image: url("../img/footer-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: grey;
+  position: relative;
+  overflow-y: hidden;
+}
+
+h4 {
+  color: #FFF;
+}
+
+.logo-footer {
+  position: absolute;
+  top: -50px;
+  left: 55%;
+  width: 32%;
+  z-index: 0;
+}
+
+.dc-ent {
+  position: absolute;
+  bottom: 0px;
+}
+
+.last-row {
+  background-color: #1d1d1d;
+}
+
+.tvw {
+  position: absolute;
+  right: 0;
+  top: 15px;
+}
+
+.tvw img {
+  padding-left: 15px;
+}
+
+.tvw span {
+  color: #0282f9;
+}
+
+.p-rel {
+  position: relative;
+}
+
+.btn-last {
+  margin: 15px;
+  padding: 10px 30px;
+  border: 2px solid #0282f9;
+  background-color: #000;
+  color: #FFF;
+  display: inline-block;
 }

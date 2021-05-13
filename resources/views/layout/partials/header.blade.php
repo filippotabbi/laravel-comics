@@ -8,12 +8,12 @@
 <div class="container">
   <div class="navbar flex-btw">
     <div class="">
-      <img src="../img/dc-logo.png" alt="">
+      <img class="logo" src="../img/dc-logo.png" alt="">
     </div>
     <span>CHARACTERS</span>
-    <span>MOVIES</span>
-    <span>COMICS</span>
-    <span>TV</span>
+    <span class="{{ Route::currentRouteName() == 'homepage' ? 'active': '' }}">MOVIES</span>
+    <span class="{{ Route::currentRouteName() == 'detail' ? 'active': '' }}">COMICS</span>
+    <span >TV</span>
     <span>GAMES</span>
     <span>COLLECTIBLES</span>
     <span>VIDEOS</span>
@@ -21,7 +21,7 @@
     <span>NEWS</span>
     <span>SHOP</span>
     <div class="">
-      <input type="text" name="" value="">
+      <input placeholder="Search" type="text" name="" value="">
     </div>
   </div>
 </div>

@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
 
    return view('homepage')->with("film", config('comics'));
-});
+})->name('homepage');
 Route::get('/single/{id}', function ($id) {
   $film = config('comics');
    return view('single')->with("comic",$film[$id] );

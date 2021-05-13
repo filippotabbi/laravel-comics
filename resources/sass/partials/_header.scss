@@ -27,3 +27,17 @@
   padding: 0;
   background-image: url('./../img/jumbotron.jpg');
 }
+.logo{
+  transform: scale(.9);
+}
+.active{
+  color: #0282f9;
+  border-bottom: 2px solid #0282f9;
+}
+input{
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 2px solid #0282f9;
+  padding: 3px 10px;
+}
