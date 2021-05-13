@@ -8,7 +8,7 @@
 <div class="container">
   <div class="navbar flex-btw">
     <div class="">
-      <img src="./img/dc-logo.png" alt="">
+      <img src="../img/dc-logo.png" alt="">
     </div>
     <span>CHARACTERS</span>
     <span>MOVIES</span>
